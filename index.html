@@ -886,7 +886,7 @@ async function generateShareCard() {
   ctx.fillRect(qrX, qrY, qrSize, qrSize);
 
   // 生成二维码
-  var pageUrl = 'https://chrischou1130.github.io/cover/';
+  var pageUrl = 'https://chrischou1130.github.io/youth/';
   try {
     var qrImg = await generateQRCodeImage(pageUrl, qrSize);
     ctx.drawImage(qrImg, qrX, qrY, qrSize, qrSize);
